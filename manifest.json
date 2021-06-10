@@ -1,0 +1,15 @@
+{
+    "name":"Easy",
+    "version":"1.0",
+    "manifest_version":2,
+    "content_scripts":[
+        {
+            "matches":["https://captain.mycaptain.co.in/batches/*"],
+            "js":["scripts.js"]
+        }
+    ],
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_title":"Easy"
+    }
+}
